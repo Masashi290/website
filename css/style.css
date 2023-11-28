@@ -1,0 +1,316 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #013450;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    padding: 0 auto;   
+}
+
+.logo {
+    font-size: 32px;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    }
+
+.menu ul {
+    display: flex;
+    column-gap: 16px;
+}
+
+.menu li {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: Noto Serif JP;
+    text-align: center;
+    color: white;
+    line-height: 100px;   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* スライドショー */
+.bx-wrapper {
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+  }
+
+.slideShow {
+    margin: 0px;
+}
+
+/* 花火の始まり */
+.firework {
+    width: 100%;
+    background-color: #001520;
+}
+
+.firework h1{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-family: Noto Serif JP;
+    color: white;
+}
+
+.topic1-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+    padding: 128px 0;
+    row-gap: 64px;
+}
+
+.commentary {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.commentary img {
+    width: 410px;
+    height: 250px;
+}
+
+.commentary h2 {
+    width: 410px;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    word-break: break-all;
+}
+
+/* お知らせ */
+.news {
+    width: 100%;
+    background-color: white;
+}
+
+.topic2-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+    padding: 128px 0;
+    row-gap: 64px;
+}
+
+.news h1 {
+    width: 100%;
+    font-size: 64px;
+    font-family: Noto Serif JP;
+    text-align: left;
+    padding: 5px 0px 0px 5px;
+    border-left: 16px solid pink;
+    border-bottom: 1px solid #333333;
+}
+
+.news ul {
+    width: 100%;
+    row-gap: 128px;
+    column-gap: 32px;
+}
+
+.news li {
+    font-size: 32px;
+    font-family: 'Noto Serif', serif;
+    border-bottom: 1px solid #333333;
+    list-style-type: none;   
+}
+
+.news span{
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    color:#707070
+}
+
+/* ギャラリー */
+.gallery {
+    width: 100%;
+    background-color: #001520;
+    padding: 128px 0;
+    row-gap: 64px;
+}
+
+.topic3-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+    padding-bottom: 64px;
+}
+
+.gallery h1 {
+    width: 100%;
+    font-size: 64px;
+    font-family: Noto Serif JP;
+    text-align: center;
+    color: white;
+}
+
+/* 会場アクセス */
+.access {
+    width: 100%;
+    background-color: white;
+}
+
+.topic4-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+    padding: 128px 0;
+    row-gap: 64px;
+}
+
+.access h1 {
+    width: 100%;
+    font-size: 64px;
+    font-family: Noto Serif JP;
+    text-align: center;
+}
+
+.map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 153px;  
+}
+
+.notes {
+    width: 487px;
+}
+
+.notes h2 {
+    width: 448px;
+    font-family: Noto Serif JP;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.notes li {
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+}
+
+/* お問い合わせ */
+.inquiry {
+    width: 100%;
+    background-color: #001520;
+}
+
+.topic5-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1120px;
+    margin: 0 auto;
+    padding: 128px 0;
+    row-gap: 64px;
+}
+
+.inquiry h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-family: Noto Serif JP;
+    color: white;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 120px;
+}
+
+.form h2 {
+    width: 80px;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.form input {
+    width: 544px;
+    height: 40px;
+}
+
+.form textarea {
+    width: 544px;
+    height: 196px;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    row-gap: 64px;
+}
+
+.form-submit input {
+    width: 260px;
+    height: 50px;
+    border-radius: 8%;
+    background-color: #707070;
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    letter-spacing: 1em;
+}
+
+input[type="button"]{
+    cursor: pointer;
+}
+
+/* フッター */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #013450;
+}
+
+footer h1 {
+    font-size: 20px;
+    font-family: Noto Serif JP;
+    color: white;
+    text-align: center;
+}

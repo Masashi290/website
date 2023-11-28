@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第39回納涼花火大会</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2? family= Noto+Serif:wght@300 & display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+</head>
+<body>
+<!-- ヘッダー -->
+<header>
+<div class="header-wrapper">
+    <div class="logo">第39回納涼花火大会</div>
+    <div class="menu">
+        <ul>
+            <li><a href="#topic1">花火の始まり</a></li>
+            <li><a href="#topic2">お知らせ</a></li>
+            <li><a href="#topic3">ギャラリー</a></li>
+            <li><a href="#topic4">会場アクセス</a></li>
+            <li><a href="#topic5">お問い合わせ</a></li>
+        </ul>
+    </div>
+</div>
+</header>
+<!-- /TOPスライドショー -->
+<div class="slideShow">
+    <img src="./img/TOP1.png">
+    <img src="./img/TOP2.png">
+    <img src="./img/TOP3.png">
+</div>
+<script>
+    $(document).ready(function(){
+        $(".slideShow").bxSlider({
+            auto: true,
+            mode: 'fade',
+            speed: 1000,
+            slidewidth: 400,
+            touchEnable: false,
+            controls: false,
+            touchEnabled: false,
+            pager: false,
+        });
+    });
+</script>
+<!-- 花火の始まり -->
+<div class="firework">  
+    <div class="topic1-wrapper"> 
+        <h1 id="topic1">花火の始まり</h1>       
+        <div class="commentary">
+            <img src="./img/pht01.jpg">
+            <h2>打ち上げ花火のはじまりは、江戸時代まで遡り、享保１８（１７３３）年に隅田川で行われた水神祭がその由来と伝えられています。 当時関西や江戸では、飢饉・疫病の流行により、多数の死者がでていました。
+                その死者たちの慰霊や悪疫退散のために水神祭が催され、打ち上げ花火が上げられたのが最初です。
+            </h2>
+        </div>
+    </div>
+</div>
+<!-- お知らせ -->
+<div class="news">
+    <div class="topic2-wrapper">
+        <h1 id="topic2">お知らせ</h1>
+        <ul>
+            <li><span>🕒2023年8月10日</span><div>第39回納涼花火大会延期のお知らせ</div></li>
+            <li><span>🕒2023年8月8日</span><div>熱中症予防対策をお願いします。</div></li>
+            <li><span>🕒2023年8月5日</span><div>PICOPICOでの生配信が決定いたしました!</div></li>
+            <li><span>🕒2023年8月4日</span><div>ボランティア募集について</div></li>
+        </ul>
+    </div>
+</div>
+<!-- ギャラリー -->
+<div class="gallery">
+    <div class="topic3-wrapper">
+        <h1 id="topic3">ギャラリー</h1>
+    </div>
+        <div class="slider">
+            <div class="img"><img src="./img/gallery1.png"></div>
+            <div class="img"><img src="./img/gallery2.png"></div>
+            <div class="img"><img src="./img/gallery3.png"></div>
+            <div class="img"><img src="./img/gallery4.png"></div>
+            <div class="img"><img src="./img/gallery5.png"></div>
+        </div>
+</div>
+<script>
+    $(function () {
+        $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 10000,
+            arrows: false,
+            swipe: false,
+            slidesToShow: 4,
+            cssEase: 'linear',
+            pauseOnFocus: false,
+            pauseOnHover: false,
+        });
+    });
+</script>
+<!-- 会場アクセス -->
+<div class="access">
+    <div class="topic4-wrapper">
+        <h1 id="topic4">会場アクセス</h1>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13304.446025294625!2d133.5665496!3d33.5244864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e1bd3e6555555%3A0x25beaa34abb77c43!2z5a2m6IiO44GV44GP44KJ772c6auY55-l44Gn5a2m44G244OX44Ot44Kw44Op44Of44Oz44Kw44K544Kv44O844Or!5e0!3m2!1sja!2sjp!4v1692257853471!5m2!1sja!2sjp" width="480" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="notes">
+                <h2>～ご観覧についての注意事項～</h2>
+                <ul>
+                    <li>観覧会場は河川敷のため、構造物や植栽などがあり、お席によっては見えづらい場合があります。 あらかじめご了承ください。</li>
+                    <li>決められたお席にご着席の上、ご観覧ください。</li>
+                    <li>観覧席へのイスやテーブルなどの持ち込み、使用は禁止します。また、他のお客様の観覧の妨げとなる三脚等使用しての撮影、テント、大型パラソル、ペット等の持ち込みは禁止します。</li>
+                    <li>観覧席での飲食は可能ですが、トイレ数には限りがありますので、お酒、飲み物の飲み過ぎにはご注意いただき、節度のある飲酒等にご協力ください。</li>
+                    <li>観覧エリア内は指定された場所以外は禁煙となります。（電子タバコも含む）</li>
+                    <li>観覧会場外への退場は可能ですが、再入場の際には、半券またはリストバンドが必要となります。</li>
+                    <li>ドローン・ラジコンヘリ等小型無人飛行機の持ち込み、使用を禁止します。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- お問い合わせ -->
+<div class="inquiry">
+    <div class="topic5-wrapper">
+        <h1 id="topic5">お問い合わせ</h1>
+        <form method="POST" name="form1">
+            <div class="form">
+                <h2>氏名</h2>
+                <input id="field1" type="text">
+            </div>
+            <div class="form">
+                <h2>メール</h2>
+                <input id="field2" type="email">
+            </div>
+            <div class="form">
+                <h2>電話番号</h2>
+                <input id="field3" type="number">
+            </div>
+            <div class="form">
+                <h2>内容</h2>
+                <textarea id="field4"></textarea>
+            </div>
+            <div class="form-submit">
+                <input type="button" value="送信" onClick="check()">
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function check() {
+        var flag = 0;
+
+        if (document.getElementById("field1").value == "") {
+            flag = 1;
+        }
+
+        if (document.getElementById("field2").value == "") {
+            flag = 1;
+        }
+
+        if (document.getElementById("field3").value == "") {
+            flag = 1;
+        }
+
+        if (document.getElementById("field4").value == "") {
+            flag = 1;
+        }
+
+        if (flag) {
+            window.alert('未入力がありました。');
+        } else {
+            window.alert('送信しました。');
+        }
+    }
+</script>
+<!-- フッター -->
+<footer>
+    <h1>©2022 manabiya-sakura</h1>
+</footer>
+</body>
+</html>
